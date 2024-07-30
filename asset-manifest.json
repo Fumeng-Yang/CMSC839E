@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/CMSC839E/static/css/main.f855e6bc.css",
-    "main.js": "/CMSC839E/static/js/main.51f13d59.js",
+    "main.css": "/CMSC839E/static/css/main.4c7640e6.css",
+    "main.js": "/CMSC839E/static/js/main.33b51672.js",
     "static/js/453.f17112b1.chunk.js": "/CMSC839E/static/js/453.f17112b1.chunk.js",
-    "static/media/logo.svg": "/CMSC839E/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/CMSC839E/index.html",
-    "main.f855e6bc.css.map": "/CMSC839E/static/css/main.f855e6bc.css.map",
-    "main.51f13d59.js.map": "/CMSC839E/static/js/main.51f13d59.js.map",
+    "main.4c7640e6.css.map": "/CMSC839E/static/css/main.4c7640e6.css.map",
+    "main.33b51672.js.map": "/CMSC839E/static/js/main.33b51672.js.map",
     "453.f17112b1.chunk.js.map": "/CMSC839E/static/js/453.f17112b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.51f13d59.js"
+    "static/css/main.4c7640e6.css",
+    "static/js/main.33b51672.js"
   ]
 }
