@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CMSC839E/react-gh-pages/static/css/main.f855e6bc.css",
-    "main.js": "/CMSC839E/react-gh-pages/static/js/main.00653def.js",
-    "static/js/453.f17112b1.chunk.js": "/CMSC839E/react-gh-pages/static/js/453.f17112b1.chunk.js",
-    "static/media/logo.svg": "/CMSC839E/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/CMSC839E/react-gh-pages/index.html",
-    "main.f855e6bc.css.map": "/CMSC839E/react-gh-pages/static/css/main.f855e6bc.css.map",
-    "main.00653def.js.map": "/CMSC839E/react-gh-pages/static/js/main.00653def.js.map",
-    "453.f17112b1.chunk.js.map": "/CMSC839E/react-gh-pages/static/js/453.f17112b1.chunk.js.map"
+    "main.css": "/CMSC839E/static/css/main.f855e6bc.css",
+    "main.js": "/CMSC839E/static/js/main.51f13d59.js",
+    "static/js/453.f17112b1.chunk.js": "/CMSC839E/static/js/453.f17112b1.chunk.js",
+    "static/media/logo.svg": "/CMSC839E/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CMSC839E/index.html",
+    "main.f855e6bc.css.map": "/CMSC839E/static/css/main.f855e6bc.css.map",
+    "main.51f13d59.js.map": "/CMSC839E/static/js/main.51f13d59.js.map",
+    "453.f17112b1.chunk.js.map": "/CMSC839E/static/js/453.f17112b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.00653def.js"
+    "static/js/main.51f13d59.js"
   ]
 }
