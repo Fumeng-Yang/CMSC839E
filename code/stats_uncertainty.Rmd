@@ -18,7 +18,7 @@ This document includes the code for generating the figures in the lecture.
 ```{r setup}
 library(tidyverse) # tibble
 library(ggdist) # plot distributions
-
+library(rstatix) # anova test
 SD = 1 # assume a standard deviation of 1
 ```
 
@@ -211,3 +211,95 @@ ggplot() +
 
 
 
+# t-test
+
+```{r}
+data = 
+  rbind(
+    tibble(y=rnorm(20, mean = 10, sd=1), group = 'A'),
+    tibble(y=rnorm(20, mean = 11, sd=1), group = 'B'))
+```
+
+test and regression: note that the mean difference is the slope.
+
+```{r}
+t.test(data %>% filter(group=='A') %>% pull(y), 
+       data %>% filter(group=='B') %>% pull(y))
+
+lm(y ~ group, data = data)
+
+```
+
+
+```{r fig.height=5, fig.width=3}
+data %>% 
+ggplot() + 
+  geom_point(aes(x = group, y = y)) +
+  theme_classic() +
+  coord_cartesian(ylim=c(0,15))
+```
+
+# One-way ANOVA
+
+```{r}
+data2 = 
+  rbind(
+    tibble(y=rnorm(20, mean = 10, sd=1), group = 'A'),
+    tibble(y=rnorm(20, mean = 11, sd=1), group = 'B'),
+    tibble(y=rnorm(20, mean = 11, sd=1), group = 'C'))
+```
+
+the test
+
+```{r}
+summary(aov(y ~ group, data = data2))
+```
+
+the regression version
+
+```{r}
+anova(lm(y ~ group, data = data2))
+```
+
+The test results are the same.
+
+
+```{r fig.height=5, fig.width=3}
+data2 %>% 
+ggplot() + 
+  geom_point(aes(x = group, y = y)) +
+  theme_classic() +
+  coord_cartesian(ylim=c(0,15))
+```
+
+# Two-way ANOVA
+
+
+```{r}
+data3 = 
+  rbind(
+    tibble(y=rnorm(20, mean = 10, sd=1), dose = 1, cond = 'control'),
+    tibble(y=rnorm(20, mean = 11, sd=1), dose = 2, cond = 'control'),
+    tibble(y=rnorm(20, mean = 11, sd=1), dose = 3, cond = 'control'),
+    tibble(y=rnorm(20, mean = 11.2, sd=1), dose = 1, cond = 'treatment'),
+    tibble(y=rnorm(20, mean = 10.8, sd=1), dose = 2, cond = 'treatment'),
+    tibble(y=rnorm(20, mean = 11.9, sd=1), dose = 3, cond = 'treatment'))
+```
+
+
+```{r}
+summary(aov(y ~ dose*cond, data = data3))
+```
+
+
+```{r}
+anova(lm(y ~ dose + cond + dose:cond, data = data3))
+```
+
+the regression version
+
+```{r}
+anova(lm(y ~ group, data = data2))
+```
+
+Very similar results
