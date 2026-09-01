@@ -44,14 +44,12 @@ class Howitworks extends Component {
         return (
             <>
 
-                <div className="under-construction">
-                    July 22, 2026: This page is under construction. Topics, readings, and links have not been finalized.
-                </div>
-                <h2 id='howitworks'>How things work</h2>
+<h2 id='howitworks'>How things work</h2>
 
 
                 <p dangerouslySetInnerHTML={{ __html: howitworks }}></p>
-               Useful links: <a href='https://umd.instructure.com/courses/1388609' className='chip-link'>Canvas <FiExternalLink style={{verticalAlign: '-2px'}} /></a> <a href="https://docs.google.com/document/d/1ckEDJa0lEtDfa-Yjrb4Unln2Os3wKd9YTbNZPKsXk38/edit?tab=t.0#heading=h.8d457k55bvgj" className='chip-link'>Presentation guide <FiExternalLink style={{verticalAlign: '-2px'}} /></a> — find the presentation signup and Slack invite on Canvas.
+               Useful links: <a href='https://umd.instructure.com/courses/1408687' className='chip-link'>Canvas <FiExternalLink style={{verticalAlign: '-2px'}} /></a> 
+               <a href="https://docs.google.com/document/d/1m0SZIHOWsUHZ7jbo__P2NtWBwl5ZzTrbzY3WTfiWg6A/edit?usp=sharing" className='chip-link'>Presentation guide <FiExternalLink style={{verticalAlign: '-2px'}} /></a> — find the presentation signup and Slack invite on Canvas.
                 {/* <span href='https://umd.instructure.com/courses/1375246' className='button-detail' >Pres. signup </span>  */}
                 {assignments.map(a => {
                     return (<div className='div-howitworks'>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from './withRouter.js';
 import { syllabusData, syllabus_intro } from './config.js';
-import { FiExternalLink, FiChevronDown, FiChevronRight, FiBook, FiBookmark, FiMessageCircle } from "react-icons/fi";
+import { FiExternalLink, FiChevronDown, FiChevronRight, FiFileText, FiBookmark, FiMessageCircle } from "react-icons/fi";
 
 class Syllabus extends Component {
     state = {}
@@ -48,7 +48,7 @@ class Syllabus extends Component {
                 {required && required.map((paper, i) => (
                     <div className='row' key={i}>
                         <div className='col-1' style={{whiteSpace: 'nowrap'}}>
-                            <font className='paper-index'><FiBook style={{verticalAlign: '-2px'}} /> R{reqStart + i}</font>
+                            <font className='paper-index'><FiFileText style={{verticalAlign: '-2px'}} /> R{reqStart + i}</font>
                         </div>
                         <div className='col-11'>
                             {paper.title} <a href={paper.url} target='_blank' rel='noreferrer'>
@@ -58,7 +58,7 @@ class Syllabus extends Component {
                                 const key = `note-${rowIndex}-${paper.title}`;
                                 this.setState(prev => ({ [key]: !prev[key] }));
                             }}><FiMessageCircle style={{verticalAlign: '-2px'}} /></span>}
-                            {paper.pre && <span className='paper-pre-badge'>{paper.pre}</span>}
+                            {paper.pre && <span className={`paper-pre-badge paper-pre-${paper.pre.charAt(0)}`}>{paper.pre}</span>}
                             {paper.note && this.state[`note-${rowIndex}-${paper.title}`] && (
                                 <div className='paper-note-content'>{paper.note}</div>
                             )}
@@ -87,7 +87,7 @@ class Syllabus extends Component {
                                 const key = `note-${rowIndex}-${paper.title}`;
                                 this.setState(prev => ({ [key]: !prev[key] }));
                             }}><FiMessageCircle style={{verticalAlign: '-2px'}} /></span>}
-                            {paper.pre && <span className='paper-pre-badge'>{paper.pre}</span>}
+                            {paper.pre && <span className={`paper-pre-badge paper-pre-${paper.pre.charAt(0)}`}>{paper.pre}</span>}
                             {paper.note && this.state[`note-${rowIndex}-${paper.title}`] && (
                                 <div className='paper-note-content'>{paper.note}</div>
                             )}
@@ -107,13 +107,13 @@ class Syllabus extends Component {
                 </p>
 
                 <p>
-                    <FiBook style={{verticalAlign: '-2px'}} /> Required readings — read before class and submit discussion questions.
+                    <FiFileText style={{verticalAlign: '-2px'}} /> Required readings — read before class and submit discussion questions.
                     <br/>
                     <FiBookmark style={{verticalAlign: '-2px', color: '#aaaaaa'}} /> Optional readings — for further exploration if you are interested in the topic.
                     <br/>
                     <FiMessageCircle style={{verticalAlign: '-2px', color: 'var(--theme-color)'}} /> Click for notes about the paper.
                     <br/>
-                    <span className='paper-pre-badge'>2-ok</span> Number of co-presenters allowed for this paper.
+                    <span className='paper-pre-badge paper-pre-1'>1-max</span> <span className='paper-pre-badge paper-pre-2'>2-max</span> <span className='paper-pre-badge paper-pre-3'>3-max</span> Max number of co-presenters allowed for this paper.
                 </p>
 
                 <div style={{ 'overflowX': 'auto' }}>
@@ -123,7 +123,7 @@ class Syllabus extends Component {
                                 <th>Week</th>
                                 <th>Date</th>
                                 <th>Topics</th>
-                                <th>Reading (due 9AM on class day)</th>
+                                <th>Reading (due noon on class day)</th>
                                 <th>Assignments</th>
                             </tr>
                         </thead>
@@ -143,6 +143,7 @@ class Syllabus extends Component {
                                             <td dangerouslySetInnerHTML={{ __html: row.topic }}></td>
                                             <td>
                                                 {row.reading && <span dangerouslySetInnerHTML={{ __html: row.reading }}></span>}
+                                                {row.url && <> <a href={row.url} target='_blank' rel='noreferrer'>{this.renderPaperLink()}</a></>}
                                                 {this.renderReadings(row.required, row.optional, i, reqStart, optStart)}
                                             </td>
                                             <td dangerouslySetInnerHTML={{ __html: row.assignments }}></td>

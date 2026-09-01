@@ -53,26 +53,15 @@ export const assignments = [
         'summary': '',
         'divs': [
             {
-                'perc': .05,
+                'perc': .10,
                 'id': 'paper-presentation',
-                'requirement': `In each class, students will present papers from the provided paper list. 
+                'requirement': `Present papers (any of the following combinations): ① 1 solo main presentation + 1 other role; ② 1 co-presentation + 2 other roles; ③ 3 other roles, one must be researcher.
                                 `,
                 'long_requirement': `
-                Each presentation should last 8-15 minutes. <br/>
+                Each main presentation should last 8-15 minutes. Each other role presents 3-5 minutes. <br/>
                 Please sign up for 1 paper over the course of the semester. I will frozen the signup on Monday for next week. <br/>
-                You can choose to present an optional paper if your co-presenter(s) agree. <br/>
-                Presenters in the same class are encouraged to coordinate and decide how they would like to present and lead the discussion. <br/>
-                You may reuse any online materials (e.g., slides, videos, demos) as long as you adhere to their licenses and describe the materials in your own words. <br/>
-                You may use any online resources as guidance, but make sure to at least introduce the problem, present some methods and results, and stimulate a discussion.  
-                `
-            },
-            {
-                'perc': .05,
-                'id': 'role-presentation',
-                'requirement': `Play other roles (except for main presenter) at least twice throughout the semester.
-                                `,
-                'long_requirement': `
-                 Each role presents 3-5 minutes. <br/>
+You may reuse any online materials (e.g., slides, videos, demos) as long as you adhere to their licenses and describe the materials in your own words. <br/>
+                You may use any online resources as guidance, but make sure to at least introduce the problem, present some methods and results, and stimulate a discussion.
                 `
             },
             {
@@ -89,7 +78,7 @@ export const assignments = [
                 'id': 'course-attendance',
                 'requirement': `Course discussion and participation `,
                 'long_requirement': `
-                Course discussion is important for your experience and the experience of your peers. We expect you to attend most of the classes. Take a photo of your attendance and submit it on Canvas. <br/>
+                Course discussion is important for your experience and the experience of your peers. We expect you to attend most of the classes. <br/>
                 `
             }
         ]
@@ -102,7 +91,7 @@ export const assignments = [
             {
                 'perc': .10,
                 'id': 'reading-responses',
-                'requirement': 'Submit 1-2 questions for each required paper before the day of the class (before 9AM on class day).  ',
+                'requirement': 'Submit 1-2 questions for each required paper before the day of the class (before noon on class day).  ',
                 'long_requirement': `
                 You can substitute a required paper with an optional paper, although we encourage you to read the required papers. <br/>
                 At least some questions per week should be non-trivial. While we won't strictly count non-trivial questions every week, your questions should show that you are consistently reading and critically thinking about the papers.  <br/>
@@ -112,7 +101,7 @@ export const assignments = [
 
     {
         'name': 'Assignment 1:',
-        'summary': '<a href="https://docs.google.com/document/d/15Cfz0HHoQT9XNmW13Qy48uV8VmAYs8p2yLfrhMbHFNI/edit?usp=sharing" class="normal-a">Project, proposal, & paper <svg stroke="#0083f5" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>',
+        'summary': '<a href="https://docs.google.com/document/d/1-RQgPxGJQCYyMqb2iMRVAH0Rtw7lbNCE_1LSUckylfU/edit?usp=sharing" class="normal-a">Project, proposal, & paper <svg stroke="#0083f5" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>',
         'divs': [
             {
                 'perc': .05,
@@ -130,7 +119,7 @@ export const assignments = [
                 'perc': .14,
                 'id': 'paper-submission',
                 'requirement': 'P.3 paper submission (group; no late submissions accepted) ',
-                'long_requirement': `Submit a 2-3 page paper that outlines your research problem, related work, methods, preliminary results, and future work.`
+                'long_requirement': `Submit a 2-4 page paper that outlines your research problem, related work, methods, preliminary results, and future work.`
             },
             {
                 'perc': .08,
@@ -148,7 +137,7 @@ export const assignments = [
 
     {
         'name': 'Assignment 2:  ',
-        'summary': '<a href="https://docs.google.com/document/d/1iGmMkk73cQQ2C3GfaNVcU9f8Mkx_1tjIXMVvdp1qHC0/edit?usp=sharing" class="normal-a">Peer review <svg stroke="#0083f5" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a> (solo)',
+        'summary': '<a href="https://docs.google.com/document/d/1gGYW2EGLV_EjG-DlDaIRhI26sy2LB5iYgbc6D67ygys/edit?usp=sharing" class="normal-a">Peer review <svg stroke="#0083f5" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a> (solo)',
         'divs': [
             {
                 'perc': .01,
@@ -178,12 +167,12 @@ export const assignments = [
     },
     {
         'name': 'Midterm exam',
-        'summary': '(take-home)',
+        'summary': '(take-home; solo)',
         'divs': [
             {
                 'perc': .30,
                 'id': 'midterm',
-                'requirement': '~15 questions from those discussed in class prior to the exam. You select 6 to answer and submit a PDF to Canvas. (solo) ',
+                'requirement': '~15 questions from those discussed in class prior to the exam. You select a subset to answer (number TBD) and submit a PDF to Canvas.',
                 'long_requirement': `
                  Expect to write 1-3 paragraphs for each question. We grade based on your idea, but be sure to read your answers for obvious readability issues. <br/>
                  We will generate answers with GPT & Claude to check if your answers are too similar to the generated answers. <br/>
@@ -207,104 +196,122 @@ export const assignments = [
 
 
 export const syllabusData = [
-    { week: 1, date: '09/01/26', topic: 'Introduction \& Icebreaker', reading: 'Openning for 40 min → Icebreaker for 40 min (Bring a Chart You Like/Dislike)', required: [
+    {
+        week: 1, date: '09/01/26', topic: 'Introduction \& Icebreaker', reading: 'Opening for 1 hr → Icebreaker for 1 hr (Bring a Chart You Like/Dislike)',
+        url: 'https://docs.google.com/document/d/12BTUYC2bmpPSZNMVhw8pyhvZCNDFPnCvjfvNvsImJCw/edit?usp=sharing',
+        required: [
             { title: 'Seven Research Contributions in HCI', url: 'https://faculty.washington.edu/wobbrock/pubs/Wobbrock-2012.pdf', pre: 'no stu presentation' },
 
-    ], optional: [], assignments: '', noClass: false },
+        ], optional: [], assignments: '', noClass: false
+    },
     {
         week: 2, date: '09/08/26', topic: 'Human-AI Decision-making', reading: '', required: [
-            { title: 'Understanding the Effects of AI-Assisted Critical Thinking on Human-AI Decision Making', url: 'https://dl.acm.org/doi/10.1145/3772318.3790785' },
-            { title: 'Rethinking Human-AI Collaboration in Complex Medical Decision-Making: A Case Study in Sepsis Diagnosis', url: 'https://dl.acm.org/doi/10.1145/3613904.3642343' },
-            { title: 'Who Does What? Archetypes of Roles Assigned to LLMs During Human-AI Decision-Making', url: 'https://dl.acm.org/doi/10.1145/3772318.3791428' }
+            { title: 'Understanding the Effects of AI-Assisted Critical Thinking on Human-AI Decision Making', url: 'https://dl.acm.org/doi/10.1145/3772318.3790785', pre: '2-max' },
+            { title: 'Rethinking Human-AI Collaboration in Complex Medical Decision-Making: A Case Study in Sepsis Diagnosis', url: 'https://dl.acm.org/doi/10.1145/3613904.3642343', pre: '2-max' },
+            { title: 'Who Does What? Archetypes of Roles Assigned to LLMs During Human-AI Decision-Making', url: 'https://dl.acm.org/doi/10.1145/3772318.3791428', pre: '2-max' }
         ], optional: [
             { title: 'In the Shadow of Judgment: Mapping Out the Landscape of Human-AI Decision-Making Through a Systematic Review', url: 'https://www.fmyang.com/projs/haid/2026-haid.pdf' }
         ], assignments: '', noClass: false
     },
     {
-        week: 3, date: '09/15/26', topic: 'Uncertainty', reading: '', required: [
-            { title: 'Why Authors Don\'t Visualize Uncertainty', url: 'https://arxiv.org/abs/1908.01697' },
-            { title: 'Addressing Uncertainty in LLM Outputs for Trust Calibration Through Visualization and User Interface Design', url: 'https://www.visible-language.org/Issue-59-2/addressing-uncertainty-in-llm-outputs-for-trust-calibration-through-visualization-and-user-interface-design.pdf', pre: '2-ok' },
-            { title: 'TBD', url: '' }
+        week: 3, date: '09/15/26', topic: 'Decision-making under Stress', reading: '', required: [
+            { title: 'Decision Making Under Stress: The Role of Information Overload, Time Pressure, Complexity, and Uncertainty', url: 'https://www.tandfonline.com/doi/abs/10.1080/12460125.2020.1768680', pre: '1-max' },
+            { title: 'How Time Pressure in Different Phases of Decision-Making Influences Human-AI Collaboration', url: 'https://dl.acm.org/doi/10.1145/3610068', pre: '2-max' },
+            { title: 'It Seems Smart, but It Acts Stupid: Development of Trust in AI Advice in a Repeated Legal Decision-Making Task', url: 'https://dl.acm.org/doi/10.1145/3581641.3584058', pre: '1-max' },
+            { title: 'AI for Situational Awareness in Situations with High Uncertainty: An Explorative Case Study', url: 'https://aisel.aisnet.org/ecis2022_rp/62/', pre: '2-max' }
         ], optional: [
-            { title: 'A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions', url: 'https://dl.acm.org/doi/10.1145/3744238' },
-            { title: "Uncertainty Quantification and Confidence Calibration in Large Language Models: A Survey", url: 'https://dl.acm.org/doi/abs/10.1145/3711896.3736569'},
-            { title: "Projecting confidence: How the probabilistic horse race confuses and demobilizes the public", url: 'https://www.journals.uchicago.edu/doi/abs/10.1086/708682'}
+            { title: "Human-AI Use Patterns for Decision-Making in Disaster Scenarios: A Systematic Review", url: "https://arxiv.org/html/2509.12034v1" },
+            { title: 'Are We Asking the Right Questions?: Designing for Community Stakeholders’ Interactions with AI in Policing', url: "https://dl.acm.org/doi/10.1145/3613904.3642738" }
         ], assignments: '', noClass: false
     },
     {
-        week: 4, date: '09/22/26', topic: 'Deskilling \& Disempowerment', reading: '', required: [
-            { title: 'How AI Impacts Skill Formation', url: 'https://arxiv.org/abs/2601.20245' },
-            { title: 'Who\'s in Charge? Disempowerment Patterns in Real-World LLM Usage', url: 'https://arxiv.org/abs/2601.19062', pre: '2-ok'  },
-            { title: 'Moral Deskilling and Upskilling in a New Machine Age', url: 'https://link.springer.com/article/10.1007/s13347-014-0156-9', pre: '2-ok'  }
+        week: 4, date: '09/22/26', topic: 'Uncertainty', reading: '', required: [
+            { title: 'Why Authors Don\'t Visualize Uncertainty', url: 'https://arxiv.org/abs/1908.01697', pre: '1-max' },
+            { title: 'Addressing Uncertainty in LLM Outputs for Trust Calibration Through Visualization and User Interface Design', url: 'https://www.visible-language.org/Issue-59-2/addressing-uncertainty-in-llm-outputs-for-trust-calibration-through-visualization-and-user-interface-design.pdf', pre: '2-max'},
+            { title: 'Coping with Uncertainty: A Naturalistic Decision-Making Analysis', url: 'https://www.sciencedirect.com/science/article/abs/pii/S0749597897926790', pre: '2-max' }
+        ], optional: [
+            { title: 'A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions', url: 'https://dl.acm.org/doi/10.1145/3744238' },
+            { title: "Uncertainty Quantification and Confidence Calibration in Large Language Models: A Survey", url: 'https://arxiv.org/abs/2503.15850' },
+            { title: "Projecting Confidence: How the Probabilistic Horse Race Confuses and Demobilizes the Public", url: 'https://www.journals.uchicago.edu/doi/abs/10.1086/708682' }
+        ], assignments: '', noClass: false
+    },
+    {
+        week: 5, date: '09/29/26', topic: 'Deskilling \& Disempowerment', reading: '', required: [
+            { title: 'How AI Impacts Skill Formation', url: 'https://arxiv.org/abs/2601.20245', pre: '2-max' },
+            { title: 'Who\'s in Charge? Disempowerment Patterns in Real-World LLM Usage', url: 'https://arxiv.org/abs/2601.19062', pre: '3-max'},
+            { title: 'Moral Deskilling and Upskilling in a New Machine Age', url: 'https://link.springer.com/article/10.1007/s13347-014-0156-9', pre: '2-max'}
         ],
         optional: [
-            { title: 'AI Deskilling Is a Structural Problem', url: 'https://arxiv.org/abs/2601.20245' },
-            { title: 'Human Flourishing and Technology Affordances', url: 'https://arxiv.org/abs/2601.20245' },
-            { title: 'Deskilling, Reskilling, or Upskilling? Unpacking the Pathways of Student Adaptation to Generative Artificial Intelligence', url: 'https://arxiv.org/abs/2601.20245' },
+            { title: 'AI Deskilling Is a Structural Problem', url: 'https://link.springer.com/article/10.1007/s00146-025-02686-z' },
+            { title: 'Human Flourishing and Technology Affordances', url: 'https://link.springer.com/article/10.1007/s13347-023-00686-9' },
+            { title: 'Deskilling, Reskilling, or Upskilling? Unpacking the Pathways of Student Adaptation to Generative Artificial Intelligence', url: 'https://doi.org/10.1016/j.ijinfomgt.2025.103002' },
             { title: 'How Artificial Intelligence Constrains Human Experience', url: 'https://www.journals.uchicago.edu/doi/full/10.1086/730709' }
 
         ], assignments: '', noClass: false
     },
     {
-        week: 5, date: '09/29/26', topic: 'Creativity under GenAI', reading: '', required: [
-            { title: 'Human Creativity in the Age of LLMs: Randomized Experiments on Divergent and Convergent Thinking', url: 'https://dl.acm.org/doi/full/10.1145/3706598.3714198' },
-            { title: 'Are Semantic Networks Associated with Idea Originality in Artificial Creativity? A Comparison with Human Agents', url: 'https://dl.acm.org/doi/full/10.1145/3772318.3790849' },
-            { title: 'How LLMs Distort Our Written Language', url: 'https://arxiv.org/abs/2603.18161' },
-            { title: 'Generative artificial intelligence, human creativity, and art', url : 'https://academic.oup.com/pnasnexus/article/3/3/pgae052/7618478'}
+        week: 6, date: '10/06/26', topic: 'Creativity under GenAI', reading: '', required: [
+            { title: 'Human Creativity in the Age of LLMs: Randomized Experiments on Divergent and Convergent Thinking', url: 'https://dl.acm.org/doi/full/10.1145/3706598.3714198', pre: '2-max' },
+            { title: 'Are Semantic Networks Associated with Idea Originality in Artificial Creativity? A Comparison with Human Agents', url: 'https://dl.acm.org/doi/full/10.1145/3772318.3790849', pre: '2-max' },
+            { title: 'How LLMs Distort Our Written Language', url: 'https://arxiv.org/abs/2603.18161', pre: '2-max' },
+            { title: 'Generative Artificial Intelligence, Human Creativity, and Art', url: 'https://academic.oup.com/pnasnexus/article/3/3/pgae052/7618478', pre: '1-max' }
         ], optional: [
             { title: 'Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)', url: 'https://openreview.net/forum?id=saDOrrnNTz' },
             { title: 'Generative AI and Creativity: A Systematic Literature Review and Meta-Analysis', url: 'https://arxiv.org/abs/2505.17241' },
-            { title: "Generative artificial intelligence enhances creativity butreduces the diversity of novel content", url: 'https://www.science.org/doi/full/10.1126/sciadv.adn5290'}
-        ], assignments: '', noClass: false
+            { title: "Generative Artificial Intelligence Enhances Creativity but Reduces the Diversity of Novel Content", url: 'https://www.science.org/doi/full/10.1126/sciadv.adn5290' }
+        ], assignments: 'P.1 due', noClass: false
     },
+    { week: 7, date: '10/13/26', topic: 'Fall Break', reading: 'No class', required: [], optional: [], assignments: '', noClass: true },
     {
-        week: 6, date: '10/06/26', topic: 'Dark Patterns', reading: '', required: [
-            { title: 'The Siren Song of LLMs: How Users Perceive and Respond to Dark Patterns in Large Language Models', url: 'https://dl.acm.org/doi/10.1145/3772318.3791149' },
-            { title: 'Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence', url: 'https://www.science.org/doi/10.1126/science.aec8352' },
-            { title: 'The Potential Existential Threat of Large Language Models to Online Survey Research', url: 'https://www.pnas.org/doi/full/10.1073/pnas.2518075122' },
-                        { title: 'How LLM Counselors Violate Ethical Standards in Mental Health Practice: A Practitioner-Informed Framework', url: 'https://ojs.aaai.org/index.php/AIES/article/view/36632' }
+        week: 8, date: '10/20/26', topic: 'Dark Patterns', reading: '', required: [
+            { title: 'The Siren Song of LLMs: How Users Perceive and Respond to Dark Patterns in Large Language Models', url: 'https://dl.acm.org/doi/10.1145/3772318.3791149', pre: '2-max' },
+            { title: 'Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence', url: 'https://www.science.org/doi/10.1126/science.aec8352', pre: '1-max' },
+            { title: 'The Potential Existential Threat of Large Language Models to Online Survey Research', url: 'https://www.pnas.org/doi/full/10.1073/pnas.2518075122', pre: '1-max' },
+            { title: 'How LLM Counselors Violate Ethical Standards in Mental Health Practice: A Practitioner-Informed Framework', url: 'https://ojs.aaai.org/index.php/AIES/article/view/36632', pre: '2-max' }
         ], optional: [
-            {title:'The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models', url:'https://arxiv.org/abs/2606.00975'}
+            { title: 'The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models', url: 'https://arxiv.org/abs/2606.00975' }
         ], assignments: '', noClass: false
     },
-    { week: 7, date: '10/13/26', topic: 'Fall Break (no class)', reading: '', required: [], optional: [], assignments: 'P.1 due', noClass: true },
     {
-        week: 8, date: '10/20/26', topic: 'Trust in AI', reading: '', required: [
-            { title: 'Do People Appropriately Rely on AI-Advice? An Analytical Review of HCI Research on Human-AI Decision-Making ', url: 'https://dl.acm.org/doi/10.1145/3772318.3791467' },
-            { title: 'TBD', url: '' },
-            { title: 'TBD', url: '' }
-        ], optional: [], assignments: '', noClass: false
-    },
-    {
-        week: 9, date: '10/27/26', topic: 'Trust in GenAI', reading: '', required: [
-            { title: 'In Generative Artificial Intelligence We Trust: Unpacking Determinants and Outcomes for Cognitive Trust', url: 'https://link.springer.com/article/10.1007/s00146-025-02378-8' },
-             { title: 'TBD', url: '' },
-            { title: 'TBD', url: '' }
-        ], optional: [], assignments: 'P.2 due', noClass: false
+        week: 9, date: '10/27/26', topic: 'Trust in AI \& GenAI', reading: '', required: [
+            { title: 'Trust in Automation: Designing for Appropriate Reliance', url:'https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392', pre: '3-max'},
+            { title: 'Do People Appropriately Rely on AI-Advice? An Analytical Review of HCI Research on Human-AI Decision-Making ', url: 'https://dl.acm.org/doi/10.1145/3772318.3791467', pre: '2-max' },
+            { title: 'In Generative Artificial Intelligence We Trust: Unpacking Determinants and Outcomes for Cognitive Trust', url: 'https://link.springer.com/article/10.1007/s00146-025-02378-8', pre: '2-max' },
+        ], optional: [
+            {title: "Human Trust in Artificial Intelligence: Review of Empirical Research", url: "https://journals.aom.org/doi/abs/10.5465/annals.2018.0057"},
+            { title: 'Trust in AI: Progress, Challenges, and Future Directions', url: 'https://www.nature.com/articles/s41599-024-04044-8' },
+            { title: 'A Decision Theoretic Framework for Measuring AI Reliance', url: 'https://dl.acm.org/doi/10.1145/3630106.3658901' },
+            { title: 'AI Shall Have No Dominion: On How to Measure Technology Dominance in AI-Supported Human Decision-Making', url: 'https://dl.acm.org/doi/10.1145/3544548.3581095' }
+        ], assignments: 'P.2 due', noClass: false
     },
     {
         week: 10, date: '11/03/26', topic: 'Interpretability & Explanation', reading: '', required: [
-            { title: 'Explanation, Prediction, and Causality: Three Sides of the Same Coin', url: 'https://osf.io/preprints/osf/u6vz5_v1' },
-             { title: 'TBD', url: '' },
-            { title: 'TBD', url: '' }
-        ], optional: [], assignments: '', noClass: false
+            { title: 'Explanation, Prediction, and Causality: Three Sides of the Same Coin', url: 'https://osf.io/preprints/osf/u6vz5_v1', pre: '2-max' },
+            { title: 'Are Self-Explanations from Large Language Models Faithful?', url: 'https://aclanthology.org/2024.findings-acl.19/', pre: '1-max' },
+            { title: 'Manipulating and Measuring Model Interpretability', url: 'https://dl.acm.org/doi/10.1145/3411764.3445315', pre: '3-max' }
+        ], optional: [
+            { title: 'Appropriate Reliance on AI Advice: Conceptualization and the Effect of Explanations', url: 'https://dl.acm.org/doi/abs/10.1145/3581641.3584066' },
+            { title: 'Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead', url: "https://arxiv.org/abs/1811.10154" },
+            {title: 'Fostering Appropriate Reliance on Large Language Models: The Role of Explanations, Sources, and Inconsistencies', url: 'https://arxiv.org/abs/2502.08554'}
+        ], assignments: '', noClass: false
     },
-    { week: 11, date: '11/10/26', topic: 'Midterm week', reading: 'Fumeng travel to IEEE VIS', required: [], optional: [], assignments: '', noClass: true },
+    { week: 11, date: '11/10/26', topic: 'Midterm week', reading: 'Fumeng traveling to IEEE VIS', required: [], optional: [], assignments: '', noClass: true },
     {
         week: 12, date: '11/17/26', topic: 'Statistics \& Probability', reading: '', required: [
-            { title: 'Statistical Tests, P Values, Confidence Intervals, and Power: A Guide to Misinterpretations', url: 'https://link.springer.com/article/10.1007/s10654-016-0149-3' },
-            { title: 'Fair Statistical Communication in HCI', url: 'https://inria.hal.science/hal-01377894/file/fairstats-last.pdf', note: 'This is a very useful chaper. To get the gist, you can focus on the first 21 pages. To use the method, read the whole thing.' , pre: '2-ok' },
-            { title: 'Researcher-Centered Design of Statistics: Why Bayesian Statistics Better Fit the Culture and Incentives of HCI', url: 'https://dl.acm.org/doi/10.1145/2858036.2858465' }
+            { title: 'Statistical Tests, P Values, Confidence Intervals, and Power: A Guide to Misinterpretations', url: 'https://link.springer.com/article/10.1007/s10654-016-0149-3', pre: '2-max' },
+            { title: 'Fair Statistical Communication in HCI', url: 'https://inria.hal.science/hal-01377894/file/fairstats-last.pdf', note: 'This is a very useful chaper. To get the gist, you can focus on the first 21 pages. To use the method, read the whole thing.', pre: '3-max'},
+            { title: 'Researcher-Centered Design of Statistics: Why Bayesian Statistics Better Fit the Culture and Incentives of HCI', url: 'https://dl.acm.org/doi/10.1145/2858036.2858465', pre: '2-max' }
         ], optional: [
-            {title: 'Rethinking Statistical Analysis Methods for CHI', url: 'https://dl.acm.org/doi/10.1145/2207676.2208557'}
+            { title: 'Rethinking Statistical Analysis Methods for CHI', url: 'https://dl.acm.org/doi/10.1145/2207676.2208557' }
         ], assignments: 'R.1 due', noClass: false
     },
-    { week: 13, date: '11/24/26', topic: 'Thanksgiving (no class)', reading: '', required: [], optional: [], assignments: 'P.3 due<br/>R.2 out', noClass: true },
+    { week: 13, date: '11/24/26', topic: 'Thanksgiving', reading: 'No class', required: [], optional: [], assignments: 'P.3 due<br/>R.2 out', noClass: true },
     {
-        week: 14, date: '12/01/26', topic: 'AI Literacy <br>Earlier presentations', reading: '', required: [
-            { title: 'Not Everyone Wins with LLMs: Behavioral Patterns and Pedagogical Implications for AI Literacy in Programmatic Data Science', url: 'https://dl.acm.org/doi/10.1145/3772318.3791283' },
-            { title: 'TBD', url: '' }
-        ], optional: [], assignments: 'R.2 due', noClass: false
+        week: 14, date: '12/01/26', topic: 'AI Literacy <br>Earlier presentations/Fumeng talks about paper writing and revisions', reading: '', required: [
+            { title: 'Not Everyone Wins with LLMs: Behavioral Patterns and Pedagogical Implications for AI Literacy in Programmatic Data Science', url: 'https://dl.acm.org/doi/10.1145/3772318.3791283', pre: '2-max' }
+        ], optional: [
+            { title: 'AI Literacy in K-12 and Higher Education in the Wake of Generative AI: An Integrative Review', url: 'https://dl.acm.org/doi/10.1145/3702652.3744217' }
+        ], assignments: 'R.2 due', noClass: false
     },
     { week: 15, date: '12/08/26', topic: 'Final Project Presentation', reading: '', required: [], optional: [], assignments: '', noClass: false },
     { week: 16, date: '12/15/26', topic: '', reading: 'Reading period', required: [], optional: [], assignments: 'P.4 due', noClass: false }
@@ -318,7 +325,7 @@ export const syllabusData = [
 
 export const collaboration_policy = `
 <p> 
-We encourage collaboration and discussion among students. However, solo assignments should be primarily completed on your own. You are welcome to seek help from the course staff during office hours or use Slack to ask questions and discuss with other students. For group projects, collaboration is encouraged on all aspects of the project and the paper.
+We encourage collaboration and discussion among students. However, solo assignments should be primarily completed on your own. You are welcome to seek help from the course staff during office hours or discuss with other students. For group projects, collaboration is encouraged on all aspects of the project and the paper.
 </p>
 `
 
@@ -331,13 +338,13 @@ That said, we know life and deadlines (including conference ones!) can pile up. 
 </p>
 `
 
-export const ai_policy = ` <p>The scope of AI tools includes, but is not limited to, GPT, Claude, Gemini, DALL-E, Midjourney, and DeepSeek. In line with the spirit of this course
+export const ai_policy = ` <p>The scope of AI tools includes, but is not limited to, GPT, Claude, Gemini, and the models you trained. In line with the spirit of this course
 
                     <ul>
                         <li>AI should <b>not</b> be used to <b>directly</b>  complete coursework. This includes, but is not limited to, summarizing papers without reading the original manuscripts or generating substantial portions of your assignments.</li>
-                        <li>Clearly <b>mark</b> any content that is directly generated by AI. </li>
+                        <li>Declare <b>mark</b> any content that is directly generated by AI. </li>
                         <li>Be mindful about your <b>reliance</b> on AI, especially in terms of <b>trusting</b> AI-generated content. </li>
-                        <li>You may use AI to <b>assist</b> with coursework, such as inquiring about terms, brainstorming, and improving writing. </li>
+                        <li>You may use AI to <b>assist</b> with coursework, such as inquiring about terms, prototyping, auditing, brainstorming, and improving writing. </li>
                         <li>You are encouraged to use AI <b>creatively</b> and share your thoughts and experiences with us.</li>
                     </ul>
                 </p>

@@ -20,15 +20,7 @@ class People extends Component {
             <h2 id='crew'> Teaching crew</h2>
             <Row>
                 <Card className='people-card'>
-                   <Card.Img 
-                       variant="top" 
-                       src={this.state.fumengHovered ? 
-      
-                           "https://www.fmyang.com/img/FumengYang-2024-2-lg.jpg":fumengh
-                       }
-                       onMouseEnter={() => this.setState({fumengHovered: true})}
-                       onMouseLeave={() => this.setState({fumengHovered: false})}
-                   />
+                   <Card.Img variant="top" src={process.env.PUBLIC_URL + '/img/fumeng-1.png'} />
                    <Card.Body>
                      <Card.Title><a href="https://www.fmyang.com" target='_blank' className='normal-a'>Fumeng Yang <FiExternalLink /></a></Card.Title>
                      <Card.Text>
@@ -41,11 +33,14 @@ class People extends Component {
                 </Card>
 
                 <Card className='people-card'>
-                   <Card.Img variant="top" src={turtle} />
+                   <Card.Img variant="top" src={process.env.PUBLIC_URL + '/img/YuyangWang-2026.png'} />
                    <Card.Body>
-                     <Card.Title>TBD</Card.Title>
+                     <Card.Title><a href="https://ydotwang.github.io/" target='_blank' className='normal-a'>Yuyang Wang <FiExternalLink /></a></Card.Title>
                      <Card.Text>
-                     Teaching Assistant
+                     Teaching Assistant<br/>
+                     Pronouns: he/him <br/>
+                     Hours: TBD <br/>
+                     See Canvas for Zoom link
                      </Card.Text>
                    </Card.Body>
                 </Card>

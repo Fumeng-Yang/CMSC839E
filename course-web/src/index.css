@@ -40,7 +40,7 @@ code {
 
 .teaser-img, .teaser-gallery video {
   width: 100%;
-  max-height: 280px;
+  max-height: 320px;
   object-fit: cover;
   border-radius: 4px;
   transition: opacity 1.5s ease;
@@ -237,9 +237,10 @@ ol {
 }
 
 .details {
-  font-size: 90%;
-  color: var(--theme-color);
-  background-color: #f4f9fd;
+  /* font-size: 90%; */
+  color: #555;
+  background-color: #f7f7f7;
+  border-radius: 3px;
   padding: 4px 10px;
   margin: 3px 0;
 }
@@ -377,13 +378,21 @@ table th:nth-of-type(5) {
 
 .paper-pre-badge {
   display: inline-block;
-  font-size: 75%;
-  color: var(--dark-gray);
-  background-color: var(--very-light-gray);
-  padding: 1px 6px;
-  border-radius: 8px;
+  font-size: 70%;
+  padding: 0 2px;
+  border-radius: 4px;
   margin-left: 4px;
-  vertical-align: 1px;
+  vertical-align: 3px;
+  font-weight: 500;
+}
+.paper-pre-1 {
+  color: #99c2e8;
+}
+.paper-pre-2 {
+  color: #0083f5;
+}
+.paper-pre-3 {
+  color: #004a8f;
 }
 
 .paper-note-icon {
@@ -397,7 +406,7 @@ table th:nth-of-type(5) {
 }
 
 .paper-note-content {
-  font-size: 90%;
+  /* font-size: 90%; */
   color: var(--theme-color);
   background-color: #f4f9fd;
   padding: 4px 10px;
