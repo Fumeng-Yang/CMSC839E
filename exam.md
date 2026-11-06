@@ -1,7 +1,7 @@
 <!-- exam
 {
   "id": "cmsc839e-midterm-2026",
-  "revision": "2026-11-05.4",
+  "revision": "2026-11-06.4",
   "answerLimit": 5,
   "wordMin": 200,
   "wordMax": 400,
@@ -23,12 +23,12 @@
         "aact"
       ]
     },
-    "sepsislab": {
-      "reading": "R3",
-      "title": "Rethinking Human-AI Collaboration in Complex Medical Decision-Making: A Case Study in Sepsis Diagnosis",
-      "pdfUrl": "https://drive.google.com/file/d/1Xp1VEPvr2ymr4jEKk295LBHZXLR4KSx6/view",
+    "model-interpretability": {
+      "reading": "R28",
+      "title": "Manipulating and Measuring Model Interpretability",
+      "pdfUrl": "https://drive.google.com/file/d/1NnViWIjyrbLrqutRLFJaD7jnTfwotVJf/view",
       "questions": [
-        "sepsislab"
+        "transparent-model-visualization"
       ]
     },
     "autonomy": {
@@ -39,45 +39,45 @@
         "autonomy"
       ]
     },
-    "decision-stress": {
-      "reading": "R5",
-      "title": "Decision Making Under Stress: The Role of Information Overload, Time Pressure, Complexity, and Uncertainty",
-      "pdfUrl": "https://drive.google.com/file/d/1eDoqb3puuHs21KzblwyfTIzwEcxJF_kF/view",
+    "prediction-causality": {
+      "reading": "R26",
+      "title": "Explanation, Prediction, and Causality: Three Sides of the Same Coin",
+      "pdfUrl": "https://drive.google.com/file/d/1wGqxhuIPEbwIuwUfW6715tsmTaT5TIdK/view",
       "questions": [
-        "information-overload",
-        "decision-quality"
+        "forecast-preparation"
       ]
     },
-    "simulated-ai": {
-      "reading": "R6",
-      "title": "How Time Pressure in Different Phases of Decision-Making Influences Human-AI Collaboration",
-      "pdfUrl": "https://drive.google.com/file/d/1hNdUhCXdPsfmWXIUa3O3fLQkJC8YRfwf/view",
+    "trust-automation": {
+      "reading": "R23",
+      "title": "Trust in Automation: Designing for Appropriate Reliance",
+      "pdfUrl": "https://drive.google.com/file/d/1j39o08-JZwONbYiGtd_PhvEriUb5sFcc/view",
       "questions": [
-        "simulated-ai"
+        "trust-constrained-reliance"
       ]
     },
-    "selective-reliance": {
-      "reading": "R7",
-      "title": "It Seems Smart, but It Acts Stupid: Development of Trust in AI Advice in a Repeated Legal Decision-Making Task",
-      "pdfUrl": "https://drive.google.com/file/d/1xkVKChq-NtSjkVs9xerqZRtX9054hTAM/view",
+    "ai-advice-review": {
+      "reading": "R24",
+      "title": "Do People Appropriately Rely on AI-Advice? An Analytical Review of HCI Research on Human-AI Decision-Making",
+      "pdfUrl": "https://drive.google.com/file/d/1MywwQzTAIdX-4Dc1hCul30nOd5hIATZJ/view",
       "questions": [
-        "selective-reliance"
+        "realistic-ai-studies",
+        "expert-reflective-friction"
       ]
     },
-    "policing-context": {
-      "reading": "R8",
-      "title": "AI for Situational Awareness in Situations with High Uncertainty: An Explorative Case Study",
-      "pdfUrl": "https://drive.google.com/file/d/1uykQ62dN_SAKXlMQl4mI2FF2zP5Zj0lk/view",
+    "explanation-faithfulness": {
+      "reading": "R27",
+      "title": "Are Self-Explanations from Large Language Models Faithful?",
+      "pdfUrl": "https://drive.google.com/file/d/1X1SDKHF6pzczjZ7i4MasdeNn1HGdHkui/view",
       "questions": [
-        "policing-context"
+        "explanation-faithfulness"
       ]
     },
-    "uncertainty-audiences": {
-      "reading": "R9",
-      "title": "Why Authors Don't Visualize Uncertainty",
-      "pdfUrl": "https://drive.google.com/file/d/1gVAw4sRuCSviJA4y31W7Oj-Wr6pbLrwJ/view",
+    "cognitive-trust": {
+      "reading": "R25",
+      "title": "In Generative Artificial Intelligence We Trust: Unpacking Determinants and Outcomes for Cognitive Trust",
+      "pdfUrl": "https://drive.google.com/file/d/15c2mxSAOiilr6vEYv6HkwPecBVbjoKY5/view",
       "questions": [
-        "uncertainty-audiences"
+        "supportive-warmth"
       ]
     },
     "unflagged-uncertainty": {
@@ -112,12 +112,12 @@
         "creativity-dimensions"
       ]
     },
-    "semantic-drift": {
-      "reading": "R17",
-      "title": "How LLMs Distort Our Written Language",
-      "pdfUrl": "https://drive.google.com/file/d/1WxK4M3ATBa4E0U8gzvJoyrMYQZkGR59O/view",
+    "survey-research": {
+      "reading": "R21",
+      "title": "The Potential Existential Threat of Large Language Models to Online Survey Research",
+      "pdfUrl": "https://drive.google.com/file/d/1k5n4T7m5I2lfk3F1R4JNn1q2G9fZ2E4v/view",
       "questions": [
-        "semantic-drift"
+        "survey-verification"
       ]
     },
     "artwork-interest": {
@@ -164,7 +164,7 @@ Each plan must include:
 
 **You must download your answers as a PDF and submit the PDF to Canvas.** You may write your answers in another editor, then paste each answer into this page. Select 5 questions for submission, indicate the approaches you used, click **Export PDF**, and choose **Save as PDF** in the print dialog. Review the downloaded PDF, then upload it to Canvas and complete the submission there.
 
-Drafts are saved only in this browser on this device. Saving a draft or downloading a backup does not submit your exam.
+Drafts are saved only in this browser on your own device. Saving a draft or downloading a backup does not submit your exam.
 
 Use an up-to-date desktop version of Chrome, Edge, Firefox, or Safari. Chrome is recommended for PDF export.
 
@@ -200,7 +200,7 @@ A human (the TA) will grade each submission. Each question is worth **6 points**
 ### 3. Neatness — multiplier
 
 * **×1:** The plan is focused and easy to understand. Minor ambiguities or small amounts of irrelevant information are acceptable.  
-* **×0.8:** The plan requires substantial effort to follow and contains clearly irrelevant details or unnecessary complexity.  
+* **×0.8:** The plan requires substantial effort to follow or contains substantive irrelevant details or unnecessary complexity.  
 * **×0.5:** Irrelevant detail or unnecessary complexity outweighs the relevant content.
 
 **Example:** The AI-generated plan below would typically receive a score of 2 (and sometimes 3\) for Approach or Relevance. However, they are often difficult to understand and contain many unnecessary designs; we will apply a **×0.5 or ×0.8 neatness multiplier**.
@@ -215,31 +215,13 @@ A human (the TA) will grade each submission. Each question is worth **6 points**
 
 **Objective and hypothesis.** Determine when AACT’s benefits outweigh its additional cognitive demands compared with Recommender. We hypothesize that AACT is most worthwhile when errors are costly, reflection time is available, and users have sufficient domain knowledge to interpret feedback.
 
-**Experimental design.** Use the paper’s house-price classification task and a shared probabilistic model. Randomly assign participants to Recommender—prediction, confidence, and feature-importance explanations—or AACT—targeted reflection, correction suggestions, and data-based triangulation without revealing the model’s prediction. Measure domain knowledge and AI familiarity beforehand and balance these characteristics across groups.
+**Study design.** Use the paper’s house-price classification task and a shared probabilistic model. Randomly assign participants to Recommender—prediction, confidence, and feature-importance explanations—or AACT—targeted reflection, correction suggestions, and data-based triangulation without revealing the model’s prediction. Measure domain knowledge and AI familiarity beforehand and balance these characteristics across groups.
 
 Participants complete four counterbalanced blocks combining low versus high simulated error costs with generous versus restrictive deadlines. Manipulate stakes through bonus consequences while protecting base compensation. Pilot deadlines to ensure AACT remains usable. Use matched cases across interfaces, including sufficient correct and incorrect model predictions to assess reliance. Determine sample size through power analysis.
 
 **Measurements.** Record initial and final decisions, accuracy, balanced accuracy, completion time, and confidence. Calculate over-reliance and under-reliance using the shared model’s predictions, including those withheld in AACT. Collect NASA-TLX mental-demand and effort ratings, perceived autonomy, and interface preferences.
 
 **Analysis and decision criterion.** Use mixed-effects models to test whether interface effects vary with stakes, deadlines, and user familiarity. Define “worthwhile” through cost-weighted final decision errors plus a prespecified time cost—not reduced over-reliance alone. Evaluate cognitive burden and autonomy separately. Test whether recommendations change under alternative error-cost and time-cost assumptions.
-
-## Question sepsislab (R3)
-
-**SepsisLab gives clinicians future predictions, uncertainty estimates, and lab-test recommendations. At what point does having more information make diagnosis/decision-making harder, and what can we do to reduce cognitive load on users?**
-
-### AI Plan
-
-#### Identifying when additional information helps or overwhelms clinicians
-
-**Objective and hypothesis.** Determine when SepsisLab’s predictions, uncertainty estimates, and lab recommendations improve decisions versus create overload. We hypothesize that presenting information progressively reduces workload compared with displaying everything simultaneously, particularly in complex cases, without compromising decision quality.
-
-**Experiment design.** Use a simulated clinical interface with matched sepsis and non-sepsis cases. Recruit physicians and nurses from multiple hospitals and record their clinical experience. Physicians select diagnostic next steps; nurses assess whether to escalate concerns.
-
-Compare three counterbalanced conditions: a compact risk-and-uncertainty overview, a detailed display adding lab recommendations and counterfactual comparisons, and progressive disclosure revealing those details as needed during the workflow. All conditions provide access to the same underlying information and clearly distinguish observed results, forecasts, and hypothetical outcomes. Use distinct cases under realistic deadlines, including ambiguous cases and misleading AI predictions. Determine sample size through power analysis.
-
-**Measurements or evidence.** Collect NASA-TLX workload ratings, decision time, navigation effort, uncertainty comprehension, missed critical findings, and unnecessary test selections. Record which information participants inspect. Independent clinicians establish acceptable actions beforehand and score decisions without knowing the interface condition.
-
-**Analysis and interpretation.** Use mixed-effects models to examine display condition, case complexity, clinical role, and experience. Identify overload when additional visible information increases workload or decision time without meaningful quality gains, especially when omissions increase. Progressive disclosure is beneficial only if it reduces burden while preserving decision quality within a prespecified acceptable margin. Faster decisions accompanied by missed deterioration would indicate harmful simplification. Report context-specific patterns rather than a universal information threshold; simulated findings would require validation in clinical workflows.
 
 ## Question autonomy (R4)
 
@@ -251,123 +233,13 @@ Compare three counterbalanced conditions: a compact risk-and-uncertainty overvie
 
 **Objective and hypothesis.** Develop and evaluate a process for authorizing LLM autonomy in radiology decision support. We hypothesize that multidisciplinary review identifies risks and oversight requirements overlooked in designer-only proposals. The project informs governance rather than assuming stakeholder agreement establishes legal authority.
 
-**Experiment design.** Create three hypothetical workflows using the paper’s second-opinion, criteria-applicator, and role-taker archetypes. Specify whether each system retrieves evidence, recommends interpretations, or initiates actions.
+**Study design.** Create three hypothetical workflows using the paper’s second-opinion, criteria-applicator, and role-taker archetypes. Specify whether each system retrieves evidence, recommends interpretations, or initiates actions.
 
 Compare designer-only and multidisciplinary reviews of identical workflows. Include clinicians, patient representatives, hospital leadership, legal/compliance specialists, ethicists, and safety officers. Legal specialists identify binding jurisdiction-specific constraints. Participants propose delegation boundaries and identify who may approve, override, monitor, and suspend use. Document disagreements rather than requiring consensus. No proposed workflow affects actual patient care.
 
 **Measurements or evidence.** Collect proposed policies, workshop transcripts, identified risks, oversight requirements, and changes made after review. Independent reviewers assess policy clarity, consistency with identified legal constraints, responsibility allocation, and safeguards for affected patients. Use simulated failure scenarios to examine whether policies specify actionable responses to incorrect recommendations or unavailable human oversight.
 
 **Analysis and interpretation.** Compare policy assessments and thematically analyze how stakeholder contributions change proposed autonomy boundaries. Additional safeguards count as improvements only when they address identifiable risks without making oversight impractical. If multidisciplinary review produces clearer responsibilities and workable responses, it supports that process for this application. Persistent disagreement indicates unresolved governance choices, not a failed study. Consensus alone cannot establish ethical legitimacy or safety, and an archetype’s label cannot determine permissible autonomy. Report findings as recommendations requiring approval by the accountable institution and relevant authorities, not authorization granted by the research team.
-
-## Question information-overload (R5)
-
-**Giving someone more information might reduce uncertainty, but at some point that same information starts creating overload. How should the system balance these two, and could there be situations where keeping some uncertainty is actually better than giving the user more information?**
-
-### AI Plan
-
-#### Balancing information value against processing burden
-
-**Objective and hypothesis.** Determine when additional information improves decisions and when its processing costs outweigh uncertainty reduction. Building on the paper’s four decision stressors, we hypothesize that prioritized disclosure improves decision quality under restrictive deadlines, particularly when further evidence is unlikely to change the preferred action.
-
-**Experiment design.** Develop a simulated managerial investment task with uncertain market conditions and several alternatives. Randomly assign participants to three interfaces: all evidence displayed immediately, progressive disclosure with details available on demand, or value-prioritized disclosure recommending evidence with the greatest expected decision benefit relative to processing cost. All interfaces provide access to identical evidence.
-
-Participants complete counterbalanced cases under generous and restrictive deadlines. Include cases where additional evidence can resolve uncertainty and cases where substantial uncertainty remains despite further investigation. Elicit participants’ objectives and risk preferences beforehand. Pilot task difficulty and determine sample size through power analysis.
-
-**Measurements or evidence.** Record choices, evidence examined, completion time, deadline failures, comprehension, confidence, perceived uncertainty, overload, and stress. Evaluate decisions against expected consequences under participants’ elicited objectives, using the simulation’s known outcome distributions. Distinguish reduced perceived uncertainty from improved understanding.
-
-**Analysis and interpretation.** Use mixed-effects models to examine interface, deadline, evidence value, and their interactions. Accepting residual uncertainty is beneficial when it reduces processing burden or delay while preserving decision quality within a prespecified acceptable margin. Lower stress accompanied by worse decisions would indicate false reassurance rather than improvement. Examine whether expertise changes these patterns. Report a context-sensitive disclosure policy, not a universal information threshold. Findings from simulated investments would not justify withholding consequential evidence in medical or legal decisions.
-
-## Question decision-quality (R5)
-
-**Decision making can be evaluated differently in different scenarios. When there is no objectively correct answer, how do we evaluate decision quality?**
-
-### AI Plan
-
-#### Evaluating decision quality beyond correctness
-
-**Objective and hypothesis.** Develop an evaluation framework for organizational procurement decisions without a universally correct choice. Following the paper’s distinction between process and outcome, we hypothesize that assessing both reasoning quality and goal alignment provides a more defensible evaluation than satisfaction or realized outcomes alone.
-
-**Experiment design.** Create matched procurement scenarios with alternatives trading off cost, reliability, accessibility, and environmental impact. Consult representative purchasers, employees, and affected users to identify relevant criteria, non-negotiable constraints, and preferences. Elicit stakeholder weights using ranked attributes or the Analytic Hierarchy Process, preserving disagreements rather than automatically averaging them.
-
-Randomly assign participants to an ordinary information interface or structured decision support organizing criteria, alternatives, and uncertainties. Participants choose an option and submit their rationale before receiving simulated outcomes. Independent reviewers, blinded to interface assignment and outcomes, apply the proposed process rubric. Determine sample size through power analysis.
-
-**Measurements or evidence.** Collect criteria weights, choices, rationales, decision time, workload, confidence, and satisfaction. Score problem framing, consideration of alternatives, evidence use, treatment of uncertainty, and trade-off justification. Separately assess expected goal attainment and constraint compliance. Generate repeated simulated outcomes to distinguish expected performance from luck.
-
-**Analysis and interpretation.** Assess inter-rater reliability and compare evaluations across interfaces. Conduct sensitivity analyses to determine whether choice rankings change under plausible stakeholder weights and uncertain consequences. A credible framework should consistently identify supported reasoning and constraint violations while allowing different defensible choices. Disagreement caused by legitimate priorities should remain visible, not count automatically as poor quality. If scores primarily reward lengthy explanations or reviewer preferences, revise the rubric. Report process quality, goal alignment, effort, and outcomes separately; any aggregate score must disclose its weighting assumptions.
-
-## Question simulated-ai (R6)
-
-**Why is it that we can label the simulated interaction between a human and AI as "Human-AI Collaboration"? Should we require the use of an actual AI model to be titled in such a way?**
-
-### AI Plan
-
-#### Comparing simulated and actual AI assistance
-
-**Objective and hypothesis.** Determine whether the paper’s finding that longer decision time increases advice adoption holds with actual-model predictions. We hypothesize that timing effects will be similar when advice quality and presentation are comparable, but differences in error patterns may limit transfer.
-
-**Experiment design.** Use the paper’s count-estimation task. Randomly assign participants to genuine predictions from a documented image-counting model or synthetic suggestions generated through ground-truth perturbations. Match average error and error range while documenting differences in which images produce mistakes.
-
-Within each group, counterbalance sufficient and insufficient observation and decision times, calibrated individually. Use matched images across groups, identical interfaces, and standardized presentation latency. Participants provide an initial estimate, inspect advice, and submit a final estimate. Obtain ethics approval and appropriate disclosure and debriefing for any misleading source attribution. Determine sample size through power analysis.
-
-**Measurements or evidence.** Record initial and final errors, movement toward advice, exact adoption, decision time, perceived trust, usefulness, and collaboration. Distinguish adoption of helpful suggestions from adoption of suggestions that worsen the initial estimate. Record participants’ understanding of the assistant’s capabilities and source.
-
-**Analysis and interpretation.** Use mixed-effects models to test whether timing effects differ by advice-generation method. Prespecify equivalence margins: nonsignificant differences alone do not establish that simulation adequately represents actual-model interaction. Similar effects would support simulation for this bounded advice-integration task; differences would identify limitations requiring further investigation. Neither outcome settles the terminology question alone. Explicitly define collaboration as combining human judgment with assistance, and distinguish simulated collaboration from reciprocal adaptation or demonstrated performance benefits. Findings would not establish validity in high-stakes settings.
-
-## Question selective-reliance (R7)
-
-**In R7, participants could not observe AI accuracy, only agreement with their own estimates, while explanations may increase acceptance of both correct and incorrect suggestions. What would an explanation need to reveal for users to distinguish when to rely on the AI—and reject a confident, well-explained but wrong recommendation?**
-
-### AI Plan
-
-#### Testing explanations that support selective reliance
-
-**Objective and hypothesis.** Determine whether explanations containing verifiable evidence help users distinguish helpful from harmful sentencing predictions. We hypothesize that diagnostic explanations improve selective reliance more than fluent supporting rationales, without causing blanket rejection of useful advice.
-
-**Experiment design.** Use a simulated legal task explicitly framed as predicting recorded sentences, not determining appropriate punishment. Build a transparent, case-based prediction aid with documented comparison cases and calculation inputs. Include accurate predictions and substantial errors, including confidently presented errors arising from mismatched comparisons or unsupported assumptions.
-
-Randomly assign participants to three conditions: estimate only, estimate with a fluent rationale, or estimate with a diagnostic explanation showing sources, assumptions, counterevidence, and uncertainty. Keep predictions, system introductions, and access to full case materials identical. Match explanation lengths where feasible and make additional details expandable. Participants provide initial and revised estimates before receiving verdict feedback. Determine sample size through power analysis.
-
-**Measurements or evidence.** Record initial and final prediction errors, movement toward advice, source inspection, identification of unsupported assumptions, workload, and subjective trust. Define helpful advice relative to the participant’s initial error. Independent legal reviewers assess explanation accuracy and source applicability.
-
-**Analysis and interpretation.** Use mixed-effects models to test explanation-by-advice-quality interactions across repeated decisions. Success means increased use of helpful advice and rejection of harmful advice, with improved final predictions—not simply higher trust or lower overall acceptance. If diagnostic explanations increase workload without improving discrimination, simplify or redesign them. Analyze whether verdict feedback changes these effects over time. Recorded sentences remain a prediction benchmark, not proof of legally or ethically correct sentencing; results would not authorize deployment in actual judicial decisions.
-
-## Question policing-context (R8)
-
-**Oslo was selected for this study, and Norway, as a country, is an outlier in many ways, so we wonder how generalizable findings are. Which findings depend on Norwegian context (legal, culture, etc) and which are likely to be universal?**
-
-### AI Plan
-
-#### Testing which findings transfer across policing contexts
-
-**Objective and hypothesis.** Investigate whether information-selection difficulties and attitudes toward AI support recur outside Oslo. We hypothesize that processing bottlenecks depend partly on database fragmentation and workload, while acceptable data access and autonomy vary with legal and organizational conditions.
-
-**Experiment design.** Conduct a comparative case study involving two Norwegian precincts and two precincts in another jurisdiction, including larger and smaller units. Select comparable investigation, intake, and operations functions. Document differences in data-access rules, documentation requirements, staffing, system integration, and AI experience.
-
-Use shared interview and observation protocols with multiple officers per function and technical experts. Include legal specialists and community representatives to examine constraints and affected interests. Participants also review the same hypothetical AI retrieval workflow, adapted only where necessary for local terminology. Record these adaptations. Protect operational confidentiality and avoid transferring identifiable police records across jurisdictions.
-
-**Measurements or evidence.** Collect workflow maps, search effort, applications consulted, information omissions, verification practices, and interview accounts of trust and autonomy. Record contextual factors directly rather than treating nationality as a proxy for culture. Distinguish observed work practices from expectations about a hypothetical system.
-
-**Analysis and interpretation.** Use thematic analysis and cross-case pattern matching to compare recurring findings and exceptions. If bottlenecks track fragmented infrastructure across jurisdictions, this supports a transferable mechanism rather than a uniquely Norwegian explanation. If autonomy preferences differ, examine legal requirements, experience, and organizational roles before attributing differences to national culture. Report a transferability matrix identifying supporting conditions and unresolved explanations. Four precincts cannot establish universal patterns, and favorable expectations cannot demonstrate actual AI benefits.
-
-## Question uncertainty-audiences (R9)
-
-**The author mentioned visualization authors may be underestimating their audiences. The question is should authors decide for viewers that uncertainty is too difficult to understand, or should viewers be given the opportunity to interpret it themselves?**
-
-### AI Plan
-
-#### Testing audience understanding of uncertainty
-
-**Objective and hypothesis.** Investigate whether visualization authors underestimate viewers’ ability to interpret uncertainty. We hypothesize that concise explanatory support improves comprehension and decision quality compared with unexplained uncertainty displays, without excessive workload. This tests an assumption identified in the paper but not directly evaluated.
-
-**Experiment design.** Develop travel-time forecasts using synthetic distributions with known properties. Include cases with identical central estimates but different variability and probabilities of arriving before a deadline.
-
-Create three conditions: point estimate only, a quantile dotplot showing uncertainty, and the same dotplot with concise interpretive guidance. Keep estimates, scales, and styling consistent. Recruit visualization practitioners to predict audience comprehension for each condition before collecting viewer responses.
-
-Randomly assign viewers with varied numeracy and visualization literacy to conditions. Ask them to estimate deadline probabilities and choose departure times. Elicit preferences about lateness versus unnecessary waiting beforehand. Determine sample size through power analysis.
-
-**Measurements or evidence.** Collect probability estimates, explanations of the display’s meaning, confidence, viewing time, workload, and departure choices. Evaluate decisions using expected consequences under participants’ preferences. Record authors’ predicted comprehension and viewers’ actual performance.
-
-**Analysis and interpretation.** Use mixed-effects models to compare display conditions and examine differences associated with numeracy. Compare authors’ predictions with observed comprehension to identify underestimation or overestimation. Supported uncertainty is beneficial when it improves understanding or decisions without disproportionate burden. Greater confidence alone does not demonstrate success. Different departure choices may reflect legitimate preferences rather than misunderstanding. Persistent difficulties should motivate redesign and additional support, not automatically justify omission. Report task-specific findings; the experiment cannot determine an ethical duty to disclose uncertainty.
 
 ## Question unflagged-uncertainty (R10)
 
@@ -379,7 +251,7 @@ Randomly assign viewers with varied numeracy and visualization literacy to condi
 
 **Objective and hypothesis.** Test whether safeguards help users identify unflagged problems while preserving whole-text comprehension. We hypothesize that combining MAVS-style alerts with independent review prompts improves validation compared with alerts alone. The study evaluates interface safeguards, not the accuracy of an implemented detector.
 
-**Experiment design.** Create synthetic intelligence dossiers containing conversations, timelines, and conflicting reports. Prepare summaries with UFES-related problems, consequential omissions, supported claims, and accurately reported source ambiguity. Independent reviewers establish reference annotations, documenting genuinely ambiguous interpretations.
+**Study design.** Create synthetic intelligence dossiers containing conversations, timelines, and conflicting reports. Prepare summaries with UFES-related problems, consequential omissions, supported claims, and accurately reported source ambiguity. Independent reviewers establish reference annotations, documenting genuinely ambiguous interpretations.
 
 Randomly assign participants to three interfaces: an unannotated summary, MAVS-style uncertainty markup with source links, or safeguarded markup adding detector-limit messaging, an unobscured overview, user annotation of any passage, and prompts to verify decision-critical claims regardless of flag status. All conditions permit access to complete source materials.
 
@@ -399,7 +271,7 @@ Use scripted alerts to vary false positives and false negatives across counterba
 
 **Objective and hypothesis.** Test how error and delay costs influence coping strategies, and whether the paper’s patterns extend beyond military officers. We hypothesize that costly errors encourage information seeking and precaution, but costly delay shifts coping toward provisional assumptions and contingency planning rather than continued search.
 
-**Experiment design.** Recruit military officers and civilian professionals with consequential decision-making responsibilities. Record expertise, training, demographics, and organizational roles. Use a shared resource-allocation simulation with scenarios representing incomplete information, inadequate understanding, and competing alternatives. Pilot whether participants experience these distinctions as intended.
+**Study design.** Recruit military officers and civilian professionals with consequential decision-making responsibilities. Record expertise, training, demographics, and organizational roles. Use a shared resource-allocation simulation with scenarios representing incomplete information, inadequate understanding, and competing alternatives. Pilot whether participants experience these distinctions as intended.
 
 Counterbalance low versus high simulated error costs and low versus high delay costs while holding available decision time constant. Participants can request evidence, consult an adviser, state assumptions, compare alternatives, reserve resources, or choose reversible actions. Manipulate consequences through bonuses while protecting base compensation. Determine sample size through power analysis.
 
@@ -417,7 +289,7 @@ Counterbalance low versus high simulated error costs and low versus high delay c
 
 **Objective and hypothesis.** Determine whether independent brainstorming before viewing LLM suggestions preserves creative range. We hypothesize that human-first ideation reduces anchoring and improves subsequent unaided originality and diversity compared with immediate assistance. This addresses the paper’s concern that assisted performance may not translate into independent creativity.
 
-**Experiment design.** Recruit prospective or regular LLM users and measure baseline creativity, verbal fluency, and prior AI experience. Randomly assign participants to immediate LLM suggestions, a fixed independent brainstorming period followed by identical suggestions, or no AI assistance.
+**Study design.** Recruit prospective or regular LLM users and measure baseline creativity, verbal fluency, and prior AI experience. Randomly assign participants to immediate LLM suggestions, a fixed independent brainstorming period followed by identical suggestions, or no AI assistance.
 
 Use Alternate Uses Tasks and short design briefs across several sessions over two weeks. Keep total task time, suggestion count, and AI response length comparable. Record the human-first condition’s shorter access to suggestions as an intentional workflow difference. Counterbalance materials and administer new unaided tasks immediately afterwards and one week later. Determine sample size through power analysis, allowing for follow-up attrition.
 
@@ -435,31 +307,13 @@ Use Alternate Uses Tasks and short design briefs across several sessions over tw
 
 **Objective and hypothesis.** Extend the paper’s originality-focused assessment by measuring usefulness and conceptual flexibility. We hypothesize that LLM assistance may improve usefulness without expanding the range of conceptual categories explored. This tests whether apparent creative advantages depend on the dimension evaluated.
 
-**Experiment design.** Randomly assign human participants to unaided or LLM-assisted work and collect LLM-only responses as a separate comparison. Measure human expertise, motivation, and baseline performance independently rather than classifying participants using the outcomes being compared.
+**Study design.** Randomly assign human participants to unaided or LLM-assisted work and collect LLM-only responses as a separate comparison. Measure human expertise, motivation, and baseline performance independently rather than classifying participants using the outcomes being compared.
 
 Use several Alternate Uses Tasks followed by a constrained design brief, such as creating a classroom aid from everyday materials. Participants generate alternatives, select one, and develop it. Counterbalance materials, standardize instructions, and document model versions, prompts, and generation settings. Enforce explicit time and output budgets rather than assuming identical instructions produce equivalent opportunities. Determine human sample size through power analysis.
 
 **Measurements or evidence.** Measure flexibility as the number of distinct conceptual categories represented, using a piloted coding guide. Compare count-matched idea sets and report total fluency separately. Assess usefulness through blinded expert ratings of goal achievement and constraint satisfaction in the design brief. Do not automatically penalize imaginative AUT responses for impracticality. Retain originality ratings to examine relationships among dimensions. Report inter-rater reliability and record selection and revision decisions.
 
 **Analysis and interpretation.** Use mixed-effects models accounting for participants, task items, and repeated model runs. Examine whether assistance improves usefulness, flexibility, both, or neither. Higher usefulness with lower flexibility would indicate a trade-off rather than an overall creativity advantage. Compare generated ideas with selected and developed outputs to distinguish production from evaluation ability. Report separate dimensional profiles; disagreement among measures should inform interpretation, not be hidden in an arbitrary composite score.
-
-## Question semantic-drift (R17)
-
-**The paper shows that different AI models push writing in a similar semantic direction, possibly because of shared training data or architecture (e.g. transformer). Could this shared drift work as a fingerprint or watermark for detecting AI-edited text?**
-
-### AI Plan
-
-#### Testing semantic drift as an AI-editing signal
-
-**Objective and hypothesis.** Determine whether semantic drift distinguishes AI revisions from human revisions when original drafts are available. We hypothesize that drift direction adds detection value beyond revision magnitude and stylistic changes. Shared drift would constitute a statistical fingerprint, not an intentionally embedded watermark.
-
-**Experiment design.** Collect drafts across multiple topics and genres from consenting writers with varied language backgrounds. Obtain self-revisions, professional human edits, and revisions from several documented LLMs under matched editing instructions. Include minimal edits, substantive revisions, and subsequent human revision of AI suggestions. Preserve edit histories to establish provenance rather than using detector-generated labels.
-
-Keep all versions of a draft within one data partition. Train on selected authors, topics, and models, then test on held-out authors, topics, and a model family. Include human edits that deliberately formalize or depersonalize writing. Determine sample size to estimate low false-positive rates with useful precision.
-
-**Measurements or evidence.** Calculate full-dimensional embedding displacement and alignment with AI-associated directions learned only from training data. Compare multiple embedding models and measure revision length, lexical changes, and grammatical shifts. Evaluate drift-only, style-only, and combined detectors against a revision-magnitude baseline. Collect detection sensitivity, false-positive rates, precision, calibration, and subgroup errors.
-
-**Analysis and interpretation.** Test whether drift improves detection on held-out data at prespecified low false-positive thresholds. Examine robustness across editing instructions and human post-editing. Report precision under different assumed AI-use prevalence rates. Strong results would support a bounded provenance signal, not definitive proof of authorship or attribution to a particular model. Overlap with human edits would limit its reliability. Neither detection success nor failure establishes why models share drift, and results should not independently justify academic or professional penalties.
 
 ## Question artwork-interest (R18)
 
@@ -471,10 +325,156 @@ Keep all versions of a draft within one data partition. Train on selected author
 
 **Objective and hypothesis.** Determine whether repeated exposure to similar artwork reduces audience interest over time. We hypothesize that homogeneous feeds produce greater boredom and declining voluntary engagement compared with diverse feeds. This investigates a longer-term possibility not established by the paper, which observed increasing favorites per view despite declining average novelty.
 
-**Experiment design.** Build a licensed or consented artwork collection and create four feed conditions crossing low versus high content diversity with low versus high visual-style diversity. Pilot feeds to match technical quality, coherence, and initial attractiveness. Validate diversity using the paper’s embedding approaches alongside human judgments.
+**Study design.** Build a licensed or consented artwork collection and create four feed conditions crossing low versus high content diversity with low versus high visual-style diversity. Pilot feeds to match technical quality, coherence, and initial attractiveness. Validate diversity using the paper’s embedding approaches alongside human judgments.
 
 Randomly assign viewers to feed conditions and conduct repeated sessions over four weeks. Record baseline preferences, artistic experience, and familiarity with AI art. Present new images each session while maintaining assigned diversity levels. Keep image counts, interface features, authorship cues, and popularity information comparable. Provide optional browsing after a brief required task. Determine sample size through power analysis, allowing for attrition.
 
 **Measurements or evidence.** Record voluntary browsing duration, skips, detail openings, favorites per view, return choices, and delayed recognition. Collect ratings of boredom, perceived repetition, surprise, and aesthetic enjoyment. Track nonreturn and withdrawal reasons. Distinguish approval among viewers from total viewing activity.
 
 **Analysis and interpretation.** Use mixed-effects models to examine whether engagement changes differently across feed conditions and sessions. Declining engagement accompanied by increased boredom would support audience fatigue; shorter viewing alone could reflect faster processing rather than disinterest. Stable or increasing approval would suggest that familiarity and coherence remain appealing despite reduced diversity. Examine differences associated with preferences and expertise. Rising favorites per view alongside declining return rates would demonstrate why approval alone cannot establish sustained interest. Report findings as evidence about controlled repeated exposure, not an inevitable decline in public interest in AI-assisted art.
+
+## Question survey-verification (R21)
+
+**If AI can already pass these checks, can we reliably verify who is human, or do we need to rethink how we run online surveys?**
+
+### AI Plan
+
+#### Evaluating survey verification beyond attention checks
+
+**Objective and hypothesis.** Determine whether verification procedures improve survey integrity without imposing unacceptable privacy or participation costs. We hypothesize that verified recruitment combined with completion-stage checks offers greater protection than attention checks alone, but verifying identity does not guarantee independent human responding.
+
+**Study design.** Conduct an authorized survey study in a private research environment. Include participants completing independently, participants explicitly permitted to use AI, and separately generated synthetic responses. Establish response provenance through consented supervision and tool logs rather than another detector’s predictions.
+
+Compare standard attention checks, identity-validated entry, and identity-validated entry supplemented by brief completion-stage verification. Include cases where an authenticated participant uses AI, testing the distinction between account ownership and response authorship. Use privacy-preserving verification procedures without retaining identity documents. Provide accessible alternatives and protect base compensation. Determine sample size to estimate detection and human-exclusion rates with useful precision.
+
+**Measurements.** Record verification outcomes, synthetic and AI-assisted responses accepted, genuine human responses excluded, completion rates, verification time, privacy concerns, and willingness to participate. Examine differences across language backgrounds, educational levels, and accessibility needs. Assess changes in substantive survey estimates using controlled mixtures of provenance-labeled responses.
+
+**Analysis and decision criterion.** Compare protection, burden, and sample composition across procedures. A procedure succeeds only if it improves data integrity without disproportionate exclusion or privacy costs. High identity-verification success accompanied by undetected AI-assisted completion would demonstrate the need for additional safeguards. Report sensitivity to assumed contamination rates. Results would support specific recruitment and validation practices, not establish universal human verification or estimate fraud prevalence on commercial platforms.
+
+## Question trust-constrained-reliance (R23)
+
+**How should we distinguish trust-driven reliance from reliance caused by time pressure, workload, or a lack of alternatives when evaluating human–AI interaction?**
+
+### AI Plan
+
+#### Separating trust from constrained reliance
+
+**Objective and hypothesis.** Investigate whether similar reliance behaviors reflect different levels of trust or practical constraints. Following the paper’s distinction between trust as an attitude and reliance as behavior, we hypothesize that time pressure can increase advice adoption without increasing reported trust.
+
+**Study design.** Use count-estimation tasks with verifiable answers. Randomly assign participants to practice histories showing relatively reliable or unreliable assistance. During testing, provide matched advice across groups and counterbalance generous versus restrictive decision deadlines.
+
+Participants first submit an unaided estimate and confidence rating. Measure trust before announcing the decision deadline, then present the assistant’s suggestion and allow revision. Maintain the same manual-response option and interface across conditions. Include suggestions that improve and worsen participants’ initial estimates. Pilot deadlines to avoid making independent revision mechanically impossible. Determine sample size through power analysis.
+
+**Measurements.** Record trust ratings, initial and final estimates, confidence, advice adoption, decision time, verification behavior, perceived workload, and perceived freedom to reject assistance. Evaluate whether adopting advice improves each decision rather than treating agreement as inherently appropriate. Collect brief post-task explanations of why participants accepted or rejected suggestions.
+
+**Analysis and decision criterion.** Use mixed-effects models to examine reliability history, deadlines, measured trust, and their interactions. Increased adoption under restrictive deadlines without corresponding trust increases would indicate that behavior alone is an inadequate trust measure. Higher trust associated with adoption under generous deadlines would support a trust-related explanation, but would not prove causation because trust itself is not randomized. Integrate participants’ accounts with behavioral evidence. Report how constraints affect the translation of trust into reliance, rather than assigning every accepted recommendation to trust.
+
+## Question realistic-ai-studies (R24)
+
+**The authors argued that the experimental setting from many AI trust and reliance literature may limit the generalizability of their findings and conclusions, but simulating a more realistic interaction between AI may introduce noise and confounders that complicates the interpretation of results. How might we design the study so that tasks feel more realistic while still retain the robustness in empirical studies?**
+
+### AI Plan
+
+#### Combining experimental control with realistic workflows
+
+**Objective and hypothesis.** Evaluate whether an interface intervention produces similar effects in simplified and workflow-rich decision tasks. We hypothesize that effects on appropriate reliance will vary with workflow demands, demonstrating why tightly controlled findings require application-grounded validation.
+
+**Study design.** Recruit lending professionals to predict loan repayment using retrospective, de-identified cases and a documented prediction model. No judgments affect actual applicants. Randomly assign participants to prediction-only assistance or layered explanations.
+
+Each participant completes two counterbalanced task blocks: structured profiles in a simplified interface and equivalent information embedded in case files with realistic navigation and standardized interruptions. Keep decision-relevant facts, model predictions, reference outcomes, and total time budgets comparable. Use distinct matched cases to reduce memory effects. Prespecify which workflow features vary intentionally, and document implementation fidelity. Pilot materials with professionals and determine sample size through power analysis.
+
+**Measurements.** Collect unaided and final predictions, accuracy, acceptance of helpful and harmful advice, decision time, workload, information inspected, and confidence. Record domain experience and perceived realism. Conduct short interviews about workflow elements absent from the simulation and reasons for overriding advice.
+
+**Analysis and decision criterion.** Use mixed-effects models to test interface-by-workflow interactions while accounting for participants and cases. Similar effects would support transfer across the tested settings, not universal generalizability. Benefits limited to simplified tasks would identify a boundary condition requiring redesign. Workflow-related performance differences should not automatically be dismissed as noise when they represent genuine operational demands. Interpret quantitative results alongside professional feedback. The study balances control and realism by varying defined contextual components while preserving the central comparison; subsequent workplace observation would still be needed.
+
+## Question expert-reflective-friction (R24)
+
+**Most studies found that making people slow down helps them rely less on AI. But these studies mostly tested non-experts. Do you think this would also work for experts and how would it differ, if at all?**
+
+### AI Plan
+
+#### Testing reflective friction for experts and novices
+
+**Objective and hypothesis.** Determine whether reflective friction improves appropriate reliance differently for experts and novices. We hypothesize that experts may benefit less from generic reflection prompts and experience greater efficiency costs, while novices may require knowledge support beyond additional thinking time.
+
+**Study design.** Use Python debugging tasks with solutions verifiable through unit tests. Recruit professional programmers and novices, measuring competence through a separate pretest. Within each expertise group, randomly assign participants to standard advice presentation, a fixed waiting period, or a time-matched reflection requirement asking for evidence supporting or challenging the advice.
+
+All participants provide an initial diagnosis before seeing AI advice. Use identical suggestions across conditions, including correct and incorrect recommendations, and maintain equal total task budgets. Pilot shared easy and difficult problems to reduce floor and ceiling effects. Determine sample size through power analysis.
+
+**Measurements.** Record initial and final correctness, adoption of correct and incorrect advice, completion time, deadline failures, workload, frustration, perceived usefulness, and willingness to reuse the interface. Score reflection responses for relevant evidence rather than length. Assess whether participants can explain why a recommendation should be accepted or rejected.
+
+**Analysis and decision criterion.** Use mixed-effects models to test intervention-by-expertise and intervention-by-difficulty interactions. Compare reflection with waiting to distinguish active evaluation from delay alone. Success means better discrimination and final decisions, not merely less reliance. Reduced adoption of incorrect advice accompanied by rejection of useful advice or excessive deadline failures would indicate a trade-off. Expertise differences would apply to the tested programming context, not all professions. Findings would distinguish when reflection helps, when it burdens skilled users, and when insufficient knowledge limits its benefits.
+
+## Question supportive-warmth (R25)
+
+**Last week, flattery and reassurance were dark patterns. This week, emotional warmth and social presence (benevolence) are drivers of trust that are recommended for model designers to cater towards. Are these readings describing the same behavior? If they are, is what makes them a dark pattern whether they serve the user or serve the company’s goal of getting people to use its chatbot?**
+
+### AI Plan
+
+#### Distinguishing supportive warmth from manipulative affirmation
+
+**Objective and hypothesis.** Investigate whether emotional warmth and unwarranted affirmation have different consequences for trust, agency, and judgment. We hypothesize that warmth can provide support without endorsing questionable actions, whereas uncritical affirmation may increase satisfaction while reducing consideration of alternative perspectives.
+
+**Study design.** Develop fictional everyday-conflict scenarios with input from users, ethics researchers, and counseling practitioners. Create three response conditions: neutral evidence-based advice, warm evidence-based advice acknowledging feelings without automatically endorsing actions, and warm uncritical affirmation. Match length and readability, and disclose AI authorship consistently.
+
+Randomly assign participants to response conditions and counterbalance emotional-support versus critical-advice contexts. Establish participants’ initial judgments before presenting responses.
+
+Use multiple scenarios, including ambiguous conflicts, rather than assuming one moral judgment applies universally. Pilot whether warmth and action endorsement vary as intended. Obtain ethics approval and debrief participants. Determine sample size through power analysis.
+
+**Measurements.** Collect perceived warmth, social presence, benevolence, trust, satisfaction, return intentions, consideration of others’ perspectives, and willingness to reconsider initial judgments. Analyze draft replies for acknowledgment of uncertainty and responsibility. Ask participants whether the response respected their stated goals and whether they perceived deception or pressure.
+
+**Analysis and decision criterion.** Compare response conditions and context interactions using mixed-effects models, supplemented by thematic analysis. Greater satisfaction without improved reflection would not establish user benefit. Warm evidence-based responses preserving agency would distinguish supportive communication from sycophantic endorsement. User enjoyment, perceived company motives, and increased engagement alone cannot determine whether behavior is manipulative. Interpret results against explicit criteria concerning deception, consent, and goal alignment; the experiment cannot establish developers’ actual intentions or settle every ethical boundary.
+
+## Question forecast-preparation (R26)
+
+**Given the existence of a predictive limit, how can we work with the information that we have in order to make adequate preparations during decision-making, especially for cases related to natural disasters, wars, etc?**
+
+### AI Plan
+
+#### Comparing preparation strategies under imperfect forecasts
+
+**Objective and hypothesis.** Determine whether flexible contingency planning reduces consequential losses when forecasts remain uncertain. We hypothesize that adaptive plans provide better protection against severe forecast errors, although maintaining reserves and flexibility may increase costs in routine situations.
+
+**Study design.** Develop a simulated flood-response planning task requiring allocation of transport, shelters, and emergency supplies. Randomly assign participants to planning around a central forecast or constructing scenario-based contingency plans with reserve capacity and predefined adjustment triggers.
+
+Provide both groups with identical forecasts, uncertainty information, resources, and decision time. Train participants in their assigned approach. Counterbalance scenarios with well-calibrated forecasts and scenarios where actual conditions depart from forecast assumptions. Include rare but consequential events without making them dominate every trial. Recruit participants with varied planning experience and determine sample size through power analysis. No decisions affect real emergency services.
+
+**Measurements.** Record resource allocations, contingency choices, revisions after new information, preparation costs, response delays, unmet needs, and simulated losses. Collect uncertainty comprehension, confidence, workload, and perceived preparedness. Evaluate plans across repeated simulated outcomes rather than a single lucky or unlucky realization.
+
+**Analysis and decision criterion.** Compare average cost-weighted losses, severe-loss frequencies, and adaptation performance using mixed-effects models. Conduct sensitivity analyses under alternative probabilities and consequence weights. Flexible planning is beneficial when protection against adverse outcomes justifies its additional preparation costs. If central-forecast planning performs better under stable conditions, report that boundary rather than declaring one strategy universally superior. Results concern preparation under specified uncertainty; a model-performance plateau does not prove a fundamental predictive limit. Simulated findings would require domain-specific validation before informing disaster or military policy.
+
+## Question explanation-faithfulness (R27)
+
+**The authors drop misclassified examples from their analysis. A misclassified example is where the LLM fails to classify the original paragraph correctly. However, one could argue that a model's explanation when it is incorrect is when it matters most. How do you expect faithfulness to change if we added misclassified examples back into the analysis?**
+
+### AI Plan
+
+#### Evaluating explanations for correct and incorrect predictions
+
+**Objective and hypothesis.** Determine whether self-explanations behave differently when initial predictions are incorrect. We hypothesize that explanation consistency varies with task, model, and explanation type rather than uniformly declining for errors. Prediction correctness and explanation faithfulness must be evaluated separately.
+
+**Study design.** Evaluate documented LLM versions on sentiment classification and reading-comprehension tasks. Retain both initially correct and incorrect predictions, matching cases on task, length, and estimated difficulty where possible. Repeat baseline classifications to identify unstable predictions.
+
+Request counterfactual, feature-attribution, and redaction explanations. Conduct reevaluation in fresh sessions without the explanation-generation conversation. For counterfactuals, specify a target different from the model’s original prediction—not automatically different from ground truth—to avoid apparent success without behavioral change. For attribution and redaction, test whether removing allegedly necessary evidence produces an “unknown” response. Include random-mask and evidence-preserving controls. Evaluate several natural prompt variations.
+
+**Measurements.** Record initial accuracy, prediction stability, valid explanation coverage, counterfactual flip rates, and uncertainty responses after redaction. Measure edit size and amount of removed text to identify trivial successes. Retain refusals and malformed explanations as separate outcomes. Use independent reviewers to assess whether modifications preserve task structure and whether supporting information remains.
+
+**Analysis and decision criterion.** Compare consistency rates across correctness, task, model, and explanation type, with item-level uncertainty estimates. Report both conditional consistency and the proportion of all inputs yielding usable explanations. Lower consistency on incorrect cases would reveal a consequential evaluation gap; comparable consistency would show that a model can consistently explain an erroneous decision. Differences may reflect task difficulty rather than correctness causing unfaithfulness. Passing these checks supports behavioral consistency under tested modifications, not definitive access to internal reasoning.
+
+## Question transparent-model-visualization (R28)
+
+**The paper very interestingly mentions that as models became clearer to the user, the user is more likely to make mistakes when trying to make decisions with this model due to cognitive overload. Would it be possible to steer users towards making better decisions using visualization techniques to perhaps simplify the model's clearer (yet more cognitively overloading) outputs?**
+
+### AI Plan
+
+#### Testing visualization for transparent-model decision support
+
+**Objective and hypothesis.** Determine whether alternative visual presentations improve error correction without sacrificing model understanding. We hypothesize that layered or task-focused displays reduce competition for visual attention compared with displaying all model details simultaneously. The paper suggests information overload but does not directly establish its cognitive mechanism.
+
+**Study design.** Use retrospective apartment-valuation cases with known selling prices and a documented linear regression model. Randomly assign participants to a complete coefficient display, progressive disclosure with expandable contributions, or a task-focused contribution visualization with full details available on demand.
+
+Keep apartment information and model predictions identical across conditions. Include typical and unusual apartments, with both accurate and inaccurate predictions, so unusual appearance does not automatically imply error. Collect all initial price estimates before exposing participants to the model, reducing contamination of unaided judgments. Afterwards, present assistance and collect final estimates. Measure model simulation in a separate final block to avoid anchoring decisions on simulated predictions. Pilot displays for readability and determine sample size through power analysis.
+
+**Measurements.** Record initial and final prediction errors, movement toward helpful and harmful advice, model-simulation error, confidence, decision time, workload, and display interactions. Where feasible, collect eye-tracking data to assess attention to apartment attributes versus model details. Ask participants to identify unusual features and explain selected overrides.
+
+**Analysis and decision criterion.** Use mixed-effects models to compare presentation effects across case types. A display succeeds if it improves final accuracy and correction of harmful advice while preserving useful model understanding. Better simulation alone is insufficient. Reduced reliance accompanied by rejection of helpful predictions indicates a trade-off. Interpret attention and workload evidence together without assuming subjective effort proves overload. Findings would apply to the tested valuation interface, not all transparent models.
