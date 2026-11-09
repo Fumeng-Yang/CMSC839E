@@ -203,7 +203,7 @@ A human (the TA) will grade each submission. Each question is worth **6 points**
 * **×0.8:** The plan requires substantial effort to follow or contains substantive irrelevant details or unnecessary complexity.  
 * **×0.5:** Irrelevant detail or unnecessary complexity outweighs the relevant content.
 
-**Example:** The AI-generated plan below would typically receive a score of 2 or 3 for Approach or Relevance; some may receive 1 because the subquestion is undefined. However, they are often difficult to understand and contain many unnecessary designs; we will apply a **×0.5 or ×0.8 neatness multiplier**.
+**Example:** The AI-generated plans below would typically score 2 or 3 for Approach or Relevance, but some may score 1 if they do not clearly define the subquestion they address. However, they are often difficult to understand and contain many unnecessary designs; we will apply a **×0.5 or ×0.8 neatness multiplier**.
 
 ## Question aact (R2)
 
