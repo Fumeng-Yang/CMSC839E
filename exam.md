@@ -1,7 +1,7 @@
 <!-- exam
 {
   "id": "cmsc839e-midterm-2026",
-  "revision": "2026-11-06.4",
+  "revision": "2026-11-09.1",
   "answerLimit": 5,
   "wordMin": 200,
   "wordMax": 400,
@@ -156,7 +156,7 @@ Each plan must include:
 ### Important notes
 
 * Only a plan is required; do not provide results or an implementation.  
-* We prioritize **relevant, simple, and straightforward** plans over planning as many things as possible. Your research plan should be understandable to other students in this course, including those outside your field.  
+* We value **relevant, simple, and straightforward** plans over planning as many things as possible. Your research plan should be understandable to other students in this course, including those outside your field.  
 * If a question is **too broad**, you can **narrow it down** by selecting one task, defining a subproblem, or focusing on one domain or dimension. This specificity helps us understand and assess your plan.  
 * We suggest having **about 200–400 words** for each plan. However, word count is **not a grading criterion**. A clear, concise plan of 150 or 190 words can still receive full marks.
 
@@ -203,7 +203,7 @@ A human (the TA) will grade each submission. Each question is worth **6 points**
 * **×0.8:** The plan requires substantial effort to follow or contains substantive irrelevant details or unnecessary complexity.  
 * **×0.5:** Irrelevant detail or unnecessary complexity outweighs the relevant content.
 
-**Example:** The AI-generated plan below would typically receive a score of 2 (and sometimes 3\) for Approach or Relevance. However, they are often difficult to understand and contain many unnecessary designs; we will apply a **×0.5 or ×0.8 neatness multiplier**.
+**Example:** The AI-generated plan below would typically receive a score of 2 or 3 for Approach or Relevance; some may receive 1 because the subquestion is undefined. However, they are often difficult to understand and contain many unnecessary designs; we will apply a **×0.5 or ×0.8 neatness multiplier**.
 
 ## Question aact (R2)
 
